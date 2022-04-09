@@ -1,0 +1,64 @@
+body{
+    width: 1042px;
+    background-color: aliceblue;
+    margin-left: 0px;
+    margin-left: 0px;
+}
+
+header{
+    width: 1042px;
+   /* height: 100vh;*/
+    /*width: 100vw;*/
+    background-color: aquamarine;
+    text-align: center;
+    }
+    footer{
+        width: 1042px;
+        background-color: darksalmon;
+        text-align: center;
+    }
+  
+  main{
+      width: 950px;
+      height: 400px;
+      margin-left: auto;
+      margin-right:0;
+      display:block;
+      
+  }
+  .block {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.tile-wall{background-color: rgb(80, 79, 79);}
+.tile-space{ background-color:lightgray;}
+.tile-goal{ background-color: green;
+   border-color:black;}
+
+.entity-player{ background-color:lightgray;}
+  .entity-block{ background-color: red}
+  .entity-block-goal{ background-color: gold;}
+
+  .kingIcon {
+   
+    background-size: contain;
+    background-image:url("player.png");
+}
+/*button *****/
+#restart{ position: relative;
+         top: -320px;
+         /*above is just button positin setting*/
+         display: inline-block;
+         padding: 15px 20px;
+         font-size: 15px;
+         cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+        
+        }
